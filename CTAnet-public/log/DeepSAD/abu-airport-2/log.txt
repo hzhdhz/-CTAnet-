@@ -1,0 +1,28 @@
+2022-06-19 10:22:24,921 - root - INFO - Log file is ./log/DeepSAD/abu-airport-2/log.txt
+2022-06-19 10:22:24,922 - root - INFO - Data path is ./data
+2022-06-19 10:22:24,922 - root - INFO - Export path is ./log/DeepSAD/abu-airport-2
+2022-06-19 10:22:24,922 - root - INFO - Dataset: abu-airport-2
+2022-06-19 10:22:24,923 - root - INFO - Normal class: 0
+2022-06-19 10:22:24,923 - root - INFO - Ratio of labeled normal train samples: 0.00
+2022-06-19 10:22:24,924 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2022-06-19 10:22:24,924 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2022-06-19 10:22:24,925 - root - INFO - Known anomaly class: 1
+2022-06-19 10:22:24,931 - root - INFO - Network: ctanet_hz
+2022-06-19 10:22:24,931 - root - INFO - Eta-parameter: 1.00
+2022-06-19 10:22:24,935 - root - INFO - Set seed to 1.
+2022-06-19 10:22:25,013 - root - INFO - Computation device: cuda
+2022-06-19 10:22:25,014 - root - INFO - Number of threads: 0
+2022-06-19 10:22:25,014 - root - INFO - Number of dataloader workers: 0
+2022-06-19 10:22:28,329 - root - INFO - Loading model from ./log/DeepSAD/abu-airport-2/model.tar.
+2022-06-19 10:22:28,329 - root - INFO - Pretraining: False
+2022-06-19 10:22:28,330 - root - INFO - Training optimizer: adam
+2022-06-19 10:22:28,330 - root - INFO - Training learning rate: 0.0001
+2022-06-19 10:22:28,330 - root - INFO - Training epochs: 150
+2022-06-19 10:22:28,331 - root - INFO - Training learning rate scheduler milestones: (50,)
+2022-06-19 10:22:28,331 - root - INFO - Training batch size: 128
+2022-06-19 10:22:28,332 - root - INFO - Training weight decay: 1e-06
+2022-06-19 10:22:28,451 - root - INFO - Starting testing...
+2022-06-19 10:22:37,887 - root - INFO - Test Loss: 0.107094
+2022-06-19 10:22:37,887 - root - INFO - Test AUC: 99.79%
+2022-06-19 10:22:37,888 - root - INFO - Test Time: 9.421s
+2022-06-19 10:22:37,888 - root - INFO - Finished testing.
